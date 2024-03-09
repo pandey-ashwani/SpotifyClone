@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <title>Ashwani's SpotifyClone</title>
+  </head>
+  <body>
+    <div class="wrapper flex">
+      <!-- LEFT SECTION -->
+
+      <div class="leftSection flex column">
+        <!-- HOME BAR -->
+        <div class="homeSection flex column">
+          <div class="spotifyLogo pointer divWidth">
+            <img class="invert" src="svg/spotifyLogo.svg" alt="" />
+          </div>
+
+          <div class="homeLogo invert flex pointer divWidth">
+            <img src="svg/home.svg" alt="Home" />
+            <p>Home</p>
+          </div>
+
+          <div class="searchLogo invert flex divWidth pointer">
+            <img src="svg/search.svg" alt="Search" />
+            <p>Search</p>
+          </div>
+          <img src="svg/cancel.svg" class="invert cancelIcon">
+        </div>
+        <!-- LIBRARY BAR -->
+
+        <div class="librarySection">
+          <div class="libraryLogo flex invert divWidth pointer">
+            <img src="svg/library.svg" alt="Library" />
+            <p>Your Library</p>
+          </div>
+
+          <div class="songBar">
+            <ol class="songList">
+              <!-- <div class="flex songDiv">
+                  <img src="svg/icons8-music.svg" class="invert libraryMusicBtn">
+
+                <div>
+                <p>Song Name</p>
+                <p>Artist Name</p>
+                </div>
+                
+                <img src="svg/play.svg" class="invert">
+
+              </div>
+           -->
+            </ol>
+          </div>
+
+          <div class="footer invert">
+            <ul class="flex">
+              <li class="pointer">Legal</li>
+              <li class="pointer">Safety & Privacy Center</li>
+              <li class="pointer">Privacy Policy</li>
+              <li class="pointer">Cookies</li>
+              <li class="pointer">About Ads</li>
+              <li class="pointer">Accessibility</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SECTION -->
+
+      <div class="rightSection">
+
+        <!-- NAV SECTION -->
+
+      <div class="navBar flex invert">
+        <div class="flex g-1">
+          <img src="svg/hamburger.svg" class="hamBurger">
+          <div class="circle rightLeftLogoCont">
+            <span class="material-symbols-outlined" style="color: black;">
+                arrow_back_ios
+            </span>
+            </div>
+
+            <div class="circle rightLeftLogoCont">
+              <span class="material-symbols-outlined" style="color: black;">
+                  arrow_forward_ios
+              </span>
+          </div>
+          </div>
+
+          <div class="btnContainer">
+           
+            <button class="signupBtn invert">Sign up</button>
+
+            <button class="loginBtn">Log in
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- CARD CONTAINER -->
+        <div class="spotifyPlaylist">
+          <h2 class="invert ">Spotify Playlists</h2>
+          <div class="playlist flex">
+          <div data-folder="atg" class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67706f000000026e515187c071e45918e9f0de" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+          </div>
+            <div class="cardText invert flex column">
+              <h4>Dinner with Friends</h4>
+              <p>The Perfect Soundtrack to those long nights over dinner</p>
+            </div>
+          </div>
+
+
+
+
+          <div data-folder="tsg" class="card">
+            <div class="cardImg">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84f25df7041565614681d65e6e" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>All Time Romance</h4>
+              <p>This is Vishal Mishra. The essential tracks, all in one playlist.</p>
+            </div>
+          </div>
+
+          <div data-folder="tsg" class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67616d00001e02ab1e3b16de1c7ec009880e97" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Dunki</h4>
+              <p>2023 Album</p>
+            </div>
+          </div>
+
+          <div data-folder="Bhakti" class="card">
+            <div class="cardImg">
+            <img src="svg/swatimishra.jpg" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Bhakti Song</h4>
+              <p>Single</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67706f000000029aca80c44272329aa82d6dff" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Trending Now India</h4>
+              <p>Every track you're listening/should be listening to Cover- Animal</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67706f0000000201dd7b912f7c96ef41c2dedf" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Bollywood Mush</h4>
+              <p>Let these songs be the background score to your love story. Cover - Kabir Singh</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cardImg">
+            <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/5wJ1H6ud777odtZl5gG507/en" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Vishal Mishra Radio</h4>
+              <p>With Akhil Sachdeva, Rochak Kohli, Sachet Tandon and more</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67616d00001e02a063e1ccb44aeeffb03dca3d" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div><div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Dil Jhoom With Arijit Singh</h4>
+              <p>Every track you're listening/should be listening to</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="cardImg">
+            <img src="https://i.scdn.co/image/ab67616d00001e02fd2824249c4df9c5f8aa543c" alt="">
+            <div class="greenBtn"><img src="svg/Spotify-Play-Button.png" ></div>
+            </div>
+            <div class="cardText invert flex column">
+              <h4>Long Drive (Bollywood Mix)</h4>
+              <p>Hottest Hindi music served here. Cover </p>
+            </div>
+          </div>
+
+
+
+          
+          
+
+
+          </div>
+
+        </div>
+        <div class="volumeControl">
+          <input type="range" name="" id="volRange">
+          <img src="svg/volume.svg" class="invert"
+          id="fullVol">
+          <img src="svg/silent.svg" class="invert" id="silent">
+          <img src="svg/volDown.svg" class="invert" id="volDown">
+        </div>
+        <div class="playBar flex">
+
+          <div id="songInfo"></div>
+
+        <div class="playBtn">
+
+          <img id="previous" src="svg/previous.svg" alt="">
+          <img id="pause" src="svg/play.svg" alt="">
+          <img id="next" src="svg/next.svg" alt="">
+        </div>
+          <div class="timeVolume">
+
+            <div id="songDuration">00:00/00:00</div>
+
+            <div>
+            <img src="svg/volume.svg" alt="Vol" class="volume">
+            </div>
+          
+          </div>
+        <div class="seekBar">
+          <div class="playCircle"></div>
+        </div>
+      </div>
+    </div>
+  
+
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
+

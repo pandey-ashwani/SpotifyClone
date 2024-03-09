@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex{
+  display: flex;
+}
+
+.invert{
+  filter: invert(1);
+}
+
+.column{
+  flex-direction: column;
+}
+
+.bold{
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.bg{
+  background-color: blue;
+}
+
+.divWidth{
+  min-width: 100px;
+  width: 150px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.g-1{
+  gap: 10p60x;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #454141; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #272626; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
